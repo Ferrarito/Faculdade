@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="https://www.w3schools.com/action_page.php">
+    <form action="https://www.w3schools.com/action_page.php
+    ">
         <label for="Dia de hoje">Dia de Hoje:</label>
         <br>
         <input type="date" name="Data" id="data">
@@ -52,50 +53,42 @@
          <option value="DF">DF</option>
          <option value="SP">SP</option>
         </select><br><br>
-        <label for="Cep">Seu Cep</label><br>
-        <input type="text" name="Cep" id="CEP"><br>
-        <p>Gênero</p>
-        <input type="radio" name="Sexo" id="Masculino" value="Masculino">
+        <label for="CEP">Seu CEP</label><br>
+        <input type="text" name="CEP" id="CEP"><br>
+        <br>
+        <p>Escolha seu gênero:</p>
+        <input type="radio" name="gênero" id="Masculino" value="Masculino">
         <label for="Masculino">Masculino</label><br>
-
-        <input type="radio" name="Sexo" id="Feminino" value="Feminino">
+        <input type="radio" name="gênero" id="Feminino" value="Feminino">
         <label for="Feminino">Feminino</label><br>
+        <input type="radio" name="gênero" id="Prefiro não dizer" value="Prefiro não dizer">
+        <label for="Prefiro não dizer">Prefiro não dizer</label><br><br>
 
-        <input type="radio" name="Sexo" id="Prefiro não dizer" value="Prefiro não dizer">
-        <label for="Prefiro não dizer">Prefiro não dizer</label><br>
+        <p>Seu Curso(s)</p>
 
-        <p>Curso:</p>
-        <input type="checkbox" name="curso" id="curso" value="ADS">
-        <label for="Ads">ADS</label><br>
-
-        <input type="checkbox" name="Curso" id="Curso" value="Jogos">
+        <input type="checkbox" name="Curso" id="ADS" value="ADS">
+        <label for="ADS">ADS</label><br>
+        <input type="checkbox" name="Curso" id="Jogos" value="Jogos">
         <label for="Jogos">Jogos</label><br>
+        <input type="checkbox" name="Curso" id="Gestão de TI" value="Gestão de TI">
+        <label for="Gestão de TI ">Gestão de TI</label><br>
+        <input type="checkbox" name="Curso" id="Banco de dados" value="Banco de Dados">
+        <label for="Banco de dados">Banco de Dados</label><br>
 
-        <input type="checkbox" name="Curso" id="Curso" value="Gestao de TI">
-        <label for="Gestao de TI">Gestão de TI</label><br>
+        <p>Seu Modelo</p>
 
-        <input type="checkbox" name="Curso" id="curso" value="Banco de Dados">
-        <label for="Banco de Dados">Banco de dados</label><br>
-
-        <p>Modelo:</p>
-        <input type="radio" name="Modelo" id="Modelo" value="Presencial">
+        <input type="radio" name="Modelo" id="Presencial" value="Presencial">
         <label for="Presencial">Presencial</label><br>
-
-        <input type="radio" name="Modelo" id="Modelo" value="EAD">
+        <input type="radio" name="Modelo" id="EAD" value="EAD">
         <label for="EAD">EAD</label><br>
-
-        <input type="radio" name="Modelo" id="Modelo" value="Semi Presencial">
+        <input type="radio" name="Modelo" id="Semi Presencial" value="Semi Presencial">
         <label for="Semi Presencial">Semi Presencial</label><br>
 
-        <input type="submit" value="Enviar">
-         
-
-
+        <input type="submit" name="enviar" id="enviar">
 
 
 
         
-
 
 
 
