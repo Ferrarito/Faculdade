@@ -1,0 +1,65 @@
+.tudo{
+    display: flex;
+    margin-top: 124px;
+    margin-right: 119px;
+    margin-left: 165px;
+    margin-bottom: 375.69px;
+   
+}
+.imagem{
+    display: flex;
+    width: 540px;
+    height: 524.31px;
+    margin-left: 76px;
+    margin-top: 124px;
+    margin-right: 119px;
+
+}   
+.texto{
+    display: flex;
+    width: 540px;
+    height: auto;
+    margin-top: 160px;
+    margin-left: 165px;
+    margin-right: 76px;
+    margin-bottom: 660px;
+    flex-direction: column;
+    
+}
+.titulo{
+    font-family: "Roboto", sans-serif;
+    
+
+    
+}
+.paragrafo{
+    text-align: justify;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    color: #6F7CB2;
+    
+}
+
+
+
+
+
+.fotinha{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    
+}
+
+.bloco1{
+    margin-top: 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bloco2{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
