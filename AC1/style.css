@@ -1,71 +1,94 @@
-.tudo{
+main{
     display: flex;
-    margin-top: 124px;
-    margin-right: 119px;
-    margin-left: 165px;
-    margin-bottom: 375.69px;
-   
+    height: 909px;
+    width: 1440px;
+    
 }
-.imagem{
-    display: flex;
-    width: 540px;
-    height: 524.31px;
-    margin-left: 76px;
-    margin-top: 124px;
-    margin-right: 119px;
 
-}   
 .texto{
     display: flex;
-    width: 540px;
-    height: auto;
-    margin-top: 160px;
-    margin-left: 165px;
-    margin-right: 76px;
-    margin-bottom: 660px;
     flex-direction: column;
-    
+   
+    margin-left: 120px;
+    margin-top: 135px;
 }
-.titulo{
-    font-family: "Roboto", sans-serif;
-    
-
-    
-}
-.paragrafo{
-    text-align: justify;
-    margin-top: 0px;
-    font-family: "Roboto", sans-serif;
-    color: #6F7CB2;
-    
-}
-
-
-
-
-
-.fotinha{
+h1{
     display: flex;
-    width: 36px;
-    height: 36px;
-    font-size: 16px;
+    width: 495px;
+    height: 43px;
+    font-family: "Lato", sans-serif;
+
+}
+p{
+    display: flex;
+    width: 487px;
+    height: 60px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+}
+
+button{
+    display: flex;
+    margin-left: 136px;
+    margin-top: 35px;
+    width: 222px;
+    height: 66px;
+    font-size: 18px;
+    background-color: #333333;
+    color: white;
+    border-radius: 40px ;
+    border: none;
+    font-family: "Lato", sans-serif;
+    
+
     
 }
 
-.bloco1{
-    margin-top: 80px;
-    font-family: "Roboto", sans-serif;
+.btn{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.redondo{
+    display: flex;
+    justify-content: space-between;
+    width: 495px;
+    height: 148px;
+    margin-top: 91px;
 }
 
-.bloco2{
-    margin-top: 80px;
-    margin-left: 30px;
-    font-family: "Roboto", sans-serif;
-}
+.doces{
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
 
-.p1{
-    color: #5D6970;
+    
+
 }
-.p2{
-    color: #5D6970;
+.img1{
+    margin-top: 31px;
+    margin-left: 53px;  
+      
+}
+.img2{
+
+margin-left: 48px;
+margin-top: 112px;
+
+
+
+
+}
+.img3{
+    margin-top: 48px;
+    margin-right: 48px;
+    margin-left: 55px;
+    margin-bottom: 134px;
+
+}
+.img4{
+margin-bottom: px;
 }
