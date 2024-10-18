@@ -10,11 +10,11 @@ function validarEmail(email) {
   }
   
   
-  console.log(validarEmail("teste@examplo.com")); 
+  console.log(validarEmail("Facens@gmail.com")); 
 
-  console.log(validarEmail("teste@exemplo")); 
+  console.log(validarEmail("cod@duty")); 
 
-  console.log(validarEmail("teste@@examplo.com")); 
+  console.log(validarEmail("falha@@hotmail.com")); 
 
-  console.log(validarEmail("teste@examplo.c")); 
+  console.log(validarEmail("naoebom@pepino.c")); 
   
